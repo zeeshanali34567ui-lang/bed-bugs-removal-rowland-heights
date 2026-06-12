@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (header) {
         window.addEventListener('scroll', () => {
             if (window.scrollY > 50) {
-                header.classList.add('bg-slate-900/95', 'backdrop-blur-md', 'shadow-lg', 'py-3');
-                header.classList.remove('bg-slate-900', 'py-5');
+                header.classList.add('bg-white/95', 'backdrop-blur-md', 'shadow-lg', 'py-3');
+                header.classList.remove('bg-white', 'py-5', 'shadow-md');
             } else {
-                header.classList.add('bg-slate-900', 'py-5');
-                header.classList.remove('bg-slate-900/95', 'backdrop-blur-md', 'shadow-lg', 'py-3');
+                header.classList.add('bg-white', 'shadow-md', 'py-5');
+                header.classList.remove('bg-white/95', 'backdrop-blur-md', 'shadow-lg', 'py-3');
             }
         });
     }

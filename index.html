@@ -18,17 +18,17 @@
                 extend: {
                     colors: {
                         brand: {
-                            50: '#f0fdf4',
-                            100: '#dcfce7',
-                            200: '#bbf7d0',
-                            300: '#86efac',
-                            400: '#4ade80',
-                            500: '#22c55e',
-                            600: '#16a34a',
-                            700: '#15803d',
-                            800: '#166534',
-                            900: '#14532d',
-                            950: '#052e16',
+                            50: '#fff4ed',
+                            100: '#ffe6d4',
+                            200: '#ffcba3',
+                            300: '#ffaa6a',
+                            400: '#ff812d',
+                            500: '#ff6a00',
+                            600: '#e15200',
+                            700: '#bb3a02',
+                            800: '#952e08',
+                            900: '#78280a',
+                            950: '#411102',
                         },
                         navy: {
                             DEFAULT: '#1A2E44',
@@ -205,86 +205,94 @@
 <body class="font-body bg-slate-50 text-slate-900 overflow-x-hidden">
 
                         <!-- 1. TOP NAVBAR -->
-    <div class="bg-dark-950 py-2 px-4 border-b border-navy/30">
+    <div class="bg-slate-100 py-2 px-4 border-b border-slate-200">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
             <!-- Left Side -->
-            <div class="flex items-start sm:items-center gap-2 text-[10px] sm:text-xs font-bold text-slate-400 tracking-wider max-w-full">
+            <div class="flex items-start sm:items-center gap-2 text-[10px] sm:text-xs font-bold text-slate-600 tracking-wider max-w-full">
                 <span class="relative flex h-1.5 w-1.5 shrink-0 mt-1 sm:mt-0">
-                    <span class="animate-ping absolute inline-flex h-full w-full rounded-none bg-brand-400 opacity-75"></span>
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-none bg-orange opacity-75"></span>
                     <span class="relative inline-flex rounded-none h-1.5 w-1.5 bg-orange"></span>
                 </span>
-                <span class="uppercase text-left leading-tight">Active Extermination Dispatch <br class="sm:hidden"> Rowland Heights, CA 91748</span>
+                <span class="uppercase text-left leading-tight">ROWLAND HEIGHTS, CA 91748</span>
             </div>
             <!-- Right Side -->
-            <div class="flex items-center gap-1.5 text-xs font-bold">
-                <i class="fa-solid fa-phone text-red-500"></i>
-                <span class="text-slate-300">Emergency Helpline:</span>
-                <a href="tel:6265550198" class="text-red-500 hover:text-red-400 transition-colors">(626) 555-0198</a>
+            <div class="flex items-center gap-4 text-xs font-bold">
+                <!-- Social Icons -->
+                <div class="hidden sm:flex items-center gap-3 border-r border-slate-300 pr-4">
+                    <a href="#" class="text-slate-500 hover:text-orange transition-colors text-[13px]" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="text-slate-500 hover:text-orange transition-colors text-[13px]" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="text-slate-500 hover:text-orange transition-colors text-[13px]" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <!-- Phone -->
+                <div class="flex items-center gap-1.5">
+                    <i class="fa-solid fa-phone text-orange"></i>
+                    <a href="tel:6265550198" class="text-slate-900 hover:text-orange transition-colors">(626) 555-0198</a>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- 2. HEADER / MAIN NAVIGATION -->
-    <header id="main-header" class="sticky top-0 z-50 bg-slate-900 text-white transition-all duration-300 py-5">
+    <header id="main-header" class="sticky top-0 z-50 bg-white text-slate-900 shadow-md transition-all duration-300 py-5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
             
             <!-- Logo -->
             <a href="/" class="flex items-center gap-2 group">
-                <div class="bg-orange p-2.5 rounded-none text-white shadow-md shadow-brand-500/20 group-hover:scale-105 transition-transform">
+                <div class="bg-orange p-2.5 rounded-none text-white shadow-md group-hover:scale-105 transition-transform">
                     <i class="fa-solid fa-shield-virus text-2xl"></i>
                 </div>
                 <div>
                     <span class="font-heading font-extrabold text-xl tracking-tight block">RH <span class="text-orange">BED BUG</span></span>
-                    <span class="text-[10px] tracking-widest text-slate-400 uppercase font-semibold block">EXERMINATORS</span>
+                    <span class="text-[10px] tracking-widest text-slate-500 uppercase font-semibold block">EXERMINATORS</span>
                 </div>
             </a>
 
             <!-- Desktop Nav -->
             <nav class="hidden lg:flex items-center gap-8 font-medium">
-                <a href="/" class="text-white hover:text-brand-400 transition-colors">Home</a>
+                <a href="/" class="text-slate-700 hover:text-orange transition-colors">Home</a>
                 
-                <!-- Services Dropdown (CSS Hover, Accessibity Focus in JS) -->
+                <!-- Services Dropdown -->
                 <div class="relative group py-2">
-                    <button class="flex items-center gap-1.5 text-white hover:text-brand-400 transition-colors py-1 focus:outline-none">
+                    <button class="flex items-center gap-1.5 text-slate-700 hover:text-orange transition-colors py-1 focus:outline-none">
                         <span>Services</span>
                         <i class="fa-solid fa-chevron-down text-xs group-hover:rotate-180 transition-transform"></i>
                     </button>
                     <!-- Dropdown Menu -->
-                    <div class="absolute top-full left-0 mt-2 w-64 bg-slate-950 border border-slate-800 rounded-none shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-1 group-hover:translate-y-0 z-50 overflow-hidden">
-                        <a href="/bed-bug-chemical-treatment" class="block px-5 py-3.5 hover:bg-navy-dark/40 hover:text-orange border-b border-slate-900/60 transition-colors">
+                    <div class="absolute top-full left-0 mt-2 w-64 bg-white border border-slate-100 rounded-none shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-1 group-hover:translate-y-0 z-50 overflow-hidden">
+                        <a href="/bed-bug-chemical-treatment" class="block px-5 py-3.5 hover:bg-slate-50 hover:text-orange border-b border-slate-100 transition-colors">
                             <span class="block font-bold text-sm">Chemical Treatment</span>
-                            <span class="text-xs text-slate-400">Targeted, safe residual protocols</span>
+                            <span class="text-xs text-slate-500">Targeted, safe residual protocols</span>
                         </a>
-                        <a href="/bed-bug-heat-treatment" class="block px-5 py-3.5 hover:bg-navy-dark/40 hover:text-orange border-b border-slate-900/60 transition-colors">
+                        <a href="/bed-bug-heat-treatment" class="block px-5 py-3.5 hover:bg-slate-50 hover:text-orange border-b border-slate-100 transition-colors">
                             <span class="block font-bold text-sm">Thermal Heat Treatment</span>
-                            <span class="text-xs text-slate-400">Eco-friendly single day eradication</span>
+                            <span class="text-xs text-slate-500">Eco-friendly single day eradication</span>
                         </a>
-                        <a href="/residential-bed-bug-control" class="block px-5 py-3.5 hover:bg-navy-dark/40 hover:text-orange border-b border-slate-900/60 transition-colors">
+                        <a href="/residential-bed-bug-control" class="block px-5 py-3.5 hover:bg-slate-50 hover:text-orange border-b border-slate-100 transition-colors">
                             <span class="block font-bold text-sm">Residential Control</span>
-                            <span class="text-xs text-slate-400">Family-safe home bug protection</span>
+                            <span class="text-xs text-slate-500">Family-safe home bug protection</span>
                         </a>
-                        <a href="/commercial-bed-bug-control" class="block px-5 py-3.5 hover:bg-navy-dark/40 hover:text-orange transition-colors">
+                        <a href="/commercial-bed-bug-control" class="block px-5 py-3.5 hover:bg-slate-50 hover:text-orange transition-colors">
                             <span class="block font-bold text-sm">Commercial Control</span>
-                            <span class="text-xs text-slate-400">Discreet motel, hotel & office care</span>
+                            <span class="text-xs text-slate-500">Discreet motel, hotel & office care</span>
                         </a>
                     </div>
                 </div>
 
-                <a href="/about-us" class="text-white hover:text-orange transition-colors">About Us</a>
-                <a href="/contact-us" class="text-white hover:text-orange transition-colors">Contact Us</a>
+                <a href="/about-us" class="text-slate-700 hover:text-orange transition-colors">About Us</a>
+                <a href="/contact-us" class="text-slate-700 hover:text-orange transition-colors">Contact Us</a>
                 
             </nav>
 
             <!-- CTA Desktop Button -->
             <div class="hidden lg:flex items-center gap-4">
-                <a href="tel:6265550198" class="flex items-center gap-2 bg-orange hover:bg-orange-dark px-6 py-2.5 rounded-none font-bold text-white shadow-lg shadow-brand-500/20 hover:scale-[1.02] active:scale-[0.98] transition-all text-sm">
+                <a href="tel:6265550198" class="flex items-center gap-2 bg-orange hover:bg-orange-dark px-6 py-2.5 rounded-md font-bold text-white shadow-lg shadow-orange/20 hover:scale-[1.02] active:scale-[0.98] transition-all text-sm">
                     <i class="fa-solid fa-phone"></i>
                     <span>(626) 555-0198</span>
                 </a>
             </div>
 
             <!-- Hamburger Button (Mobile) -->
-            <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-none text-slate-300 hover:bg-slate-800 focus:outline-none" aria-label="Toggle navigation">
+            <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-none text-slate-600 hover:bg-slate-100 focus:outline-none" aria-label="Toggle navigation">
                 <svg id="mobile-menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
@@ -295,65 +303,61 @@
         </div>
 
         <!-- Mobile Menu Navigation -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-slate-950 border-t border-slate-800 mt-4 px-4 py-4 space-y-3">
-            <a href="/" class="block py-2 text-slate-300 font-medium hover:text-white">Home</a>
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-100 mt-4 px-4 py-4 space-y-3">
+            <a href="/" class="block py-2 text-slate-700 font-medium hover:text-orange">Home</a>
             
-            <div class="border-t border-slate-900 my-1"></div>
+            <div class="border-t border-slate-100 my-1"></div>
             
             <!-- Mobile Services Dropdown Accordion -->
             <div>
-                <button id="mobile-dropdown-btn" class="w-full flex justify-between items-center py-2 text-slate-300 font-medium hover:text-white">
+                <button id="mobile-dropdown-btn" class="w-full flex justify-between items-center py-2 text-slate-700 font-medium hover:text-orange">
                     <span>Our Services</span>
                     <i id="mobile-dropdown-arrow" class="fa-solid fa-chevron-down transition-transform duration-200"></i>
                 </button>
                 <div id="mobile-dropdown-menu" class="hidden pl-4 py-2 space-y-2.5">
-                    <a href="/bed-bug-chemical-treatment" class="block text-sm text-slate-400 hover:text-orange transition-colors">Chemical Treatment</a>
-                    <a href="/bed-bug-heat-treatment" class="block text-sm text-slate-400 hover:text-orange transition-colors">Thermal Heat Treatment</a>
-                    <a href="/residential-bed-bug-control" class="block text-sm text-slate-400 hover:text-orange transition-colors">Residential Control</a>
-                    <a href="/commercial-bed-bug-control" class="block text-sm text-slate-400 hover:text-orange transition-colors">Commercial Control</a>
+                    <a href="/bed-bug-chemical-treatment" class="block text-sm text-slate-600 hover:text-orange transition-colors">Chemical Treatment</a>
+                    <a href="/bed-bug-heat-treatment" class="block text-sm text-slate-600 hover:text-orange transition-colors">Thermal Heat Treatment</a>
+                    <a href="/residential-bed-bug-control" class="block text-sm text-slate-600 hover:text-orange transition-colors">Residential Control</a>
+                    <a href="/commercial-bed-bug-control" class="block text-sm text-slate-600 hover:text-orange transition-colors">Commercial Control</a>
                 </div>
             </div>
 
-            <div class="border-t border-slate-900 my-1"></div>
+            <div class="border-t border-slate-100 my-1"></div>
             
-            <a href="/about-us" class="block py-2 text-slate-300 font-medium hover:text-white">About Us</a>
-            <a href="/contact-us" class="block py-2 text-slate-300 font-medium hover:text-white">Contact Us</a>
+            <a href="/about-us" class="block py-2 text-slate-700 font-medium hover:text-orange">About Us</a>
+            <a href="/contact-us" class="block py-2 text-slate-700 font-medium hover:text-orange">Contact Us</a>
             
-            <a href="tel:6265550198" class="w-full text-center block bg-orange hover:bg-orange-dark py-3 rounded-none font-bold text-white transition-colors mt-4">
-                <i class="fa-solid fa-phone mr-2"></i>Call Now: (626) 555-0198
+            <a href="tel:6265550198" class="w-full flex items-center justify-center gap-2 bg-orange hover:bg-orange-dark py-3 rounded-md font-bold text-white transition-colors mt-4 shadow-md tracking-wider">
+                <i class="fa-solid fa-phone-volume"></i> CALL (626) 555-0198
             </a>
         </div>
     </header>
 
     <!-- 4. HERO SECTION -->
-    <section class="relative bg-navy text-white pt-12 sm:pt-16 lg:pt-20 pb-12 sm:pb-16 lg:pb-20 overflow-hidden border-b-8 border-orange">
+    <section class="relative bg-white text-slate-900 pt-12 sm:pt-16 lg:pt-20 pb-12 sm:pb-16 lg:pb-20 overflow-hidden border-b-8 border-orange">
         
-        <!-- Background Image with Dark Overlay -->
-        <div class="absolute inset-0 z-0">
-            <img src="assets/images/hero-bg.png" alt="Bed Bug Exterminator Rowland Heights" class="w-full h-full object-cover opacity-30">
-        </div>
 
         <!-- Geometric Skewed Accent Background -->
-        <div class="absolute inset-y-0 right-0 w-3/4 lg:w-1/2 bg-navy-dark opacity-80 skew-x-[-15deg] translate-x-20 z-0"></div>
+        <div class="absolute inset-y-0 right-0 w-3/4 lg:w-1/2 bg-slate-50 border-l border-slate-200 skew-x-[-15deg] translate-x-20 z-0"></div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
             
             <!-- Left Content -->
             <div class="w-full lg:w-1/2 space-y-6 relative z-20 pb-10 lg:pb-0">
-                <div class="inline-block bg-orange text-white px-4 py-1 font-bold text-xs uppercase tracking-widest border-l-4 border-white shadow-md">
+                <div class="inline-block bg-orange text-white px-4 py-1 font-bold text-xs uppercase tracking-widest border-l-4 border-slate-900 shadow-md">
                     Professional Bed Bug Exterminators
                 </div>
-                <h1 class="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white leading-tight uppercase tracking-tight">
+                <h1 class="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-slate-900 leading-tight uppercase tracking-tight drop-shadow-sm">
                     Bed Bugs Removal Rowland Heights: Reliable Extermination Services
                 </h1>
-                <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-xl font-body">
+                <p class="text-slate-600 text-base sm:text-lg leading-relaxed max-w-xl font-body">
                     Professional Bed Bug Extermination in Rowland Heights, CA. We provide thorough inspections and effective treatments customized for your home.
                 </p>
 
 
                 <!-- CTAs -->
                 <div class="flex flex-col sm:flex-row gap-4 pt-6">
-                    <a href="tel:6265550198" class="flex items-center justify-center gap-2 bg-orange hover:bg-orange-dark text-white font-bold text-sm px-8 py-4 shadow-lg transition-colors border-2 border-orange hover:border-orange-dark uppercase tracking-widest w-full sm:w-auto">
+                    <a href="tel:6265550198" class="flex items-center justify-center gap-2 bg-orange hover:bg-orange-dark text-white font-bold text-sm px-8 py-4 shadow-xl shadow-orange/20 transition-colors border-2 border-orange hover:border-orange-dark uppercase tracking-widest w-full sm:w-auto rounded-md">
                         <i class="fa-solid fa-phone"></i>
                         <span>Get Free Instant Quote</span>
                     </a>
@@ -361,10 +365,10 @@
             </div>
 
             <!-- Right Image Area (Geometric) -->
-            <div class="w-full lg:w-1/2 relative lg:ml-10 hidden lg:block">
+            <div class="w-full lg:w-1/2 relative lg:ml-10 mt-12 lg:mt-0">
                 
                 <!-- Skewed Image Container -->
-                <div class="relative h-[400px] lg:h-[500px] transform skew-x-[-10deg] overflow-hidden border-[10px] border-white shadow-2xl z-10">
+                <div class="relative h-[400px] lg:h-[500px] transform skew-x-[-10deg] overflow-hidden border-[10px] border-slate-900 shadow-2xl z-10">
                     <img src="assets/images/hero-bg.png" alt="Bed Bug Exterminator" class="w-[120%] h-full object-cover transform skew-x-[10deg] -ml-[10%]">
                 </div>
                 
@@ -418,7 +422,7 @@
             <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
                 
                 <!-- Image Side -->
-                <div class="lg:col-span-5 relative">
+                <div class="lg:col-span-5 relative order-2 lg:order-1">
                     <!-- Skewed offset backdrop -->
                     <div class="absolute inset-0 bg-orange transform skew-x-[-5deg] translate-x-4 translate-y-4 z-0"></div>
                     <div class="w-full h-[400px] lg:h-[500px] rounded-none overflow-hidden shadow-2xl relative z-10 border-[8px] border-white">
@@ -430,7 +434,7 @@
                 </div>
 
                 <!-- Text Side -->
-                <div class="lg:col-span-7 space-y-6 relative z-10">
+                <div class="lg:col-span-7 space-y-6 relative z-10 order-1 lg:order-2">
                     <span class="inline-block px-3 py-1 bg-navy text-orange text-xs font-bold uppercase tracking-widest border-l-4 border-orange shadow-sm">About Us</span>
                     <h2 class="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-slate-900 leading-tight uppercase">
                         Rowland Heights Bed Bug Control & Exterminators: Our Background
@@ -536,7 +540,7 @@
 
 
     <!-- 7. WHY CHOOSE US SECTION -->
-    <section id="why-choose-us" class="py-24 sm:py-32 bg-white relative overflow-hidden">
+    <section id="why-choose-us" class="pt-8 sm:pt-12 pb-12 sm:pb-16 bg-slate-50 relative overflow-hidden">
         
         <!-- Abstract Background -->
         <div class="absolute inset-0 z-0">
@@ -546,105 +550,83 @@
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <!-- Section Header -->
-            <div class="text-center max-w-4xl mx-auto mb-20 space-y-6 relative z-10">
-                <span class="inline-block px-4 py-1.5 bg-white text-orange text-sm font-extrabold uppercase tracking-widest border border-slate-200 rounded-full shadow-sm">
-                    The Smart Choice for Homeowners
+            <div class="text-center max-w-4xl mx-auto mb-16 relative z-10">
+                <span class="inline-block px-5 py-1.5 bg-[#FF6A00] text-white text-[11px] font-bold uppercase tracking-[0.15em] rounded-full shadow-sm mb-5">
+                    THE SMART CHOICE
                 </span>
-                <h2 class="font-heading font-black text-5xl sm:text-6xl lg:text-7xl text-slate-900 leading-[1.1] uppercase tracking-tighter">
+                <h2 class="font-heading font-black text-5xl sm:text-6xl text-[#0A1128] leading-[1.1] uppercase tracking-tighter mb-5">
                     WHY CHOOSE US
                 </h2>
-                <p class="text-slate-600 text-lg sm:text-xl font-medium leading-relaxed max-w-3xl mx-auto">
-                    We don't just treat your home; we restore your peace of mind. Here is why we are the absolute top-rated bed bug removal experts in the San Gabriel Valley.
+                <p class="text-slate-500 text-lg sm:text-[19px] font-normal leading-relaxed max-w-3xl mx-auto">
+                    We don't just treat your home — we restore your peace of mind. Here's why we<br class="hidden sm:block"> are the top-rated bed bug removal experts in the San Gabriel Valley.
                 </p>
             </div>
 
-            <!-- Benefit Cards Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
-                
-                <!-- Card 1 -->
-                <div class="bg-white border border-slate-100 p-10 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgb(0,0,0,0.1)] hover:border-orange/30 transition-all duration-300 group flex flex-col h-full relative overflow-hidden transform hover:-translate-y-2">
-                    <div class="absolute inset-0 bg-gradient-to-br from-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <div class="relative z-10 flex flex-col h-full">
-                        <div class="w-16 h-16 bg-orange/10 text-orange flex items-center justify-center text-3xl rounded-2xl shadow-inner mb-8 group-hover:scale-110 group-hover:bg-orange group-hover:text-white transition-all duration-300">
-                            <i class="fa-solid fa-microscope"></i>
-                        </div>
-                        <h3 class="font-heading font-extrabold text-2xl text-slate-900 mb-4 uppercase tracking-tight">100% Specialized Expertise</h3>
-                        <p class="text-slate-600 text-base leading-relaxed font-medium flex-grow">
-                            We don't handle general pest control. We focus exclusively on the complex biology and eradication of bed bugs, giving us unmatched expertise.
-                        </p>
-                    </div>
+            <div class="relative max-w-[1000px] mx-auto z-10">
+                <!-- Center decorative arrow -->
+                <div class="hidden md:flex absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-11 h-11 bg-white rounded-full items-center justify-center shadow-md border border-slate-100 z-20 text-slate-600">
+                    <i class="fa-solid fa-arrow-down text-sm"></i>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="bg-white border border-slate-100 p-10 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgb(0,0,0,0.1)] hover:border-orange/30 transition-all duration-300 group flex flex-col h-full relative overflow-hidden transform hover:-translate-y-2">
-                    <div class="absolute inset-0 bg-gradient-to-br from-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <div class="relative z-10 flex flex-col h-full">
-                        <div class="w-16 h-16 bg-orange/10 text-orange flex items-center justify-center text-3xl rounded-2xl shadow-inner mb-8 group-hover:scale-110 group-hover:bg-orange group-hover:text-white transition-all duration-300">
-                            <i class="fa-solid fa-user-secret"></i>
+                <div class="grid md:grid-cols-2 gap-6">
+                    
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-[1.25rem] p-8 sm:p-10 shadow-sm border border-slate-100 border-l-[5px] border-l-[#FF6A00] hover:border-[#FF6A00] relative group hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(255,106,0,0.12)] transition-all duration-300">
+                        <div class="w-[60px] h-[60px] bg-[#FEF3EB] rounded-[14px] flex items-center justify-center text-[28px] mb-8 border border-[#FF6A00]/10 group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300">
+                            <i class="fa-solid fa-bullseye text-[#0A1128]"></i>
                         </div>
-                        <h3 class="font-heading font-extrabold text-2xl text-slate-900 mb-4 uppercase tracking-tight">Discreet & Confidential</h3>
-                        <p class="text-slate-600 text-base leading-relaxed font-medium flex-grow">
-                            We respect your privacy. Our team arrives in unmarked, professional vehicles to ensure your bed bug problem is handled quietly and immediately.
+                        <span class="inline-block bg-[#FF6A00] text-white text-[11px] font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-4">
+                            100% SPECIALIZED
+                        </span>
+                        <h3 class="font-heading font-bold text-[22px] text-[#0A1128] mb-3 tracking-tight group-hover:text-[#FF6A00] transition-colors duration-300">Bed Bug Experts Only</h3>
+                        <p class="text-slate-500 text-[16px] leading-[1.7]">
+                            We focus exclusively on the complex biology and complete eradication of bed bugs — nothing else. Pure specialists, pure results.
                         </p>
                     </div>
-                </div>
 
-                <!-- Card 3 -->
-                <div class="bg-white border border-slate-100 p-10 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgb(0,0,0,0.1)] hover:border-orange/30 transition-all duration-300 group flex flex-col h-full relative overflow-hidden transform hover:-translate-y-2">
-                    <div class="absolute inset-0 bg-gradient-to-br from-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <div class="relative z-10 flex flex-col h-full">
-                        <div class="w-16 h-16 bg-orange/10 text-orange flex items-center justify-center text-3xl rounded-2xl shadow-inner mb-8 group-hover:scale-110 group-hover:bg-orange group-hover:text-white transition-all duration-300">
-                            <i class="fa-solid fa-shield-halved"></i>
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-[1.25rem] p-8 sm:p-10 shadow-sm border border-slate-100 border-l-[5px] border-l-[#FF6A00] hover:border-[#FF6A00] relative group hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(255,106,0,0.12)] transition-all duration-300">
+                        <div class="w-[60px] h-[60px] bg-[#FEF3EB] rounded-[14px] flex items-center justify-center text-[28px] mb-8 border border-[#FF6A00]/10 group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300">
+                            <i class="fa-solid fa-shield-halved text-[#0A1128]"></i>
                         </div>
-                        <h3 class="font-heading font-extrabold text-2xl text-slate-900 mb-4 uppercase tracking-tight">Ironclad Protection</h3>
-                        <p class="text-slate-600 text-base leading-relaxed font-medium flex-grow">
-                            We don't just temporarily knock down the population. We offer robust warranties that back up our commitment to totally eliminating your infestation.
+                        <span class="inline-block bg-[#FF6A00] text-white text-[11px] font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-4">
+                            IRONCLAD PROTECTION
+                        </span>
+                        <h3 class="font-heading font-bold text-[22px] text-[#0A1128] mb-3 tracking-tight group-hover:text-[#FF6A00] transition-colors duration-300">Guaranteed Results</h3>
+                        <p class="text-slate-500 text-[16px] leading-[1.7]">
+                            We offer robust warranties to back our commitment to totally eliminating your infestation — not just a temporary fix.
                         </p>
                     </div>
-                </div>
 
-                <!-- Card 4 -->
-                <div class="bg-white border border-slate-100 p-10 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgb(0,0,0,0.1)] hover:border-orange/30 transition-all duration-300 group flex flex-col h-full relative overflow-hidden transform hover:-translate-y-2">
-                    <div class="absolute inset-0 bg-gradient-to-br from-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <div class="relative z-10 flex flex-col h-full">
-                        <div class="w-16 h-16 bg-orange/10 text-orange flex items-center justify-center text-3xl rounded-2xl shadow-inner mb-8 group-hover:scale-110 group-hover:bg-orange group-hover:text-white transition-all duration-300">
-                            <i class="fa-solid fa-bullseye"></i>
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-[1.25rem] p-8 sm:p-10 shadow-sm border border-slate-100 border-l-[5px] border-l-[#FF6A00] hover:border-[#FF6A00] relative group hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(255,106,0,0.12)] transition-all duration-300">
+                        <div class="w-[60px] h-[60px] bg-[#FEF3EB] rounded-[14px] flex items-center justify-center text-[28px] mb-8 border border-[#FF6A00]/10 group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300">
+                            <i class="fa-solid fa-lock text-[#0A1128]"></i>
                         </div>
-                        <h3 class="font-heading font-extrabold text-2xl text-slate-900 mb-4 uppercase tracking-tight">Custom Eradication Plans</h3>
-                        <p class="text-slate-600 text-base leading-relaxed font-medium flex-grow">
-                            Every home is different. We assess your unique situation and prescribe the exact combination of heat and chemical applications needed for a total cure.
+                        <span class="inline-block bg-[#FF6A00] text-white text-[11px] font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-4">
+                            PRIVATE & DISCREET
+                        </span>
+                        <h3 class="font-heading font-bold text-[22px] text-[#0A1128] mb-3 tracking-tight group-hover:text-[#FF6A00] transition-colors duration-300">Discreet Service</h3>
+                        <p class="text-slate-500 text-[16px] leading-[1.7]">
+                            Our team arrives in unmarked, professional vehicles so your bed bug problem stays completely private — your neighbors won't know.
                         </p>
                     </div>
-                </div>
 
-                <!-- Card 5 -->
-                <div class="bg-white border border-slate-100 p-10 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgb(0,0,0,0.1)] hover:border-orange/30 transition-all duration-300 group flex flex-col h-full relative overflow-hidden transform hover:-translate-y-2">
-                    <div class="absolute inset-0 bg-gradient-to-br from-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <div class="relative z-10 flex flex-col h-full">
-                        <div class="w-16 h-16 bg-orange/10 text-orange flex items-center justify-center text-3xl rounded-2xl shadow-inner mb-8 group-hover:scale-110 group-hover:bg-orange group-hover:text-white transition-all duration-300">
-                            <i class="fa-solid fa-truck-fast"></i>
+                    <!-- Card 4 -->
+                    <div class="bg-white rounded-[1.25rem] p-8 sm:p-10 shadow-sm border border-slate-100 border-l-[5px] border-l-[#FF6A00] hover:border-[#FF6A00] relative group hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(255,106,0,0.12)] transition-all duration-300">
+                        <div class="w-[60px] h-[60px] bg-[#FEF3EB] rounded-[14px] flex items-center justify-center text-[28px] mb-8 border border-[#FF6A00]/10 group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300">
+                            <i class="fa-solid fa-house-chimney text-[#0A1128]"></i>
                         </div>
-                        <h3 class="font-heading font-extrabold text-2xl text-slate-900 mb-4 uppercase tracking-tight">Rapid Same-Day Response</h3>
-                        <p class="text-slate-600 text-base leading-relaxed font-medium flex-grow">
-                            Every night with bed bugs is agonizing. We prioritize emergency calls and offer immediate inspections to get your eradication started right away.
+                        <span class="inline-block bg-[#FF6A00] text-white text-[11px] font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-4">
+                            SAFE FOR YOUR HOME
+                        </span>
+                        <h3 class="font-heading font-bold text-[22px] text-[#0A1128] mb-3 tracking-tight group-hover:text-[#FF6A00] transition-colors duration-300">Home Preservation</h3>
+                        <p class="text-slate-500 text-[16px] leading-[1.7]">
+                            Our advanced protocols safely protect your mattresses, sofas, and valuables — no damage, no mess, no worry.
                         </p>
                     </div>
-                </div>
 
-                <!-- Card 6 -->
-                <div class="bg-white border border-slate-100 p-10 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgb(0,0,0,0.1)] hover:border-orange/30 transition-all duration-300 group flex flex-col h-full relative overflow-hidden transform hover:-translate-y-2">
-                    <div class="absolute inset-0 bg-gradient-to-br from-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <div class="relative z-10 flex flex-col h-full">
-                        <div class="w-16 h-16 bg-orange/10 text-orange flex items-center justify-center text-3xl rounded-2xl shadow-inner mb-8 group-hover:scale-110 group-hover:bg-orange group-hover:text-white transition-all duration-300">
-                            <i class="fa-solid fa-house-chimney-medical"></i>
-                        </div>
-                        <h3 class="font-heading font-extrabold text-2xl text-slate-900 mb-4 uppercase tracking-tight">Total Home Preservation</h3>
-                        <p class="text-slate-600 text-base leading-relaxed font-medium flex-grow">
-                            We do not require you to throw out your valuable furniture. Our advanced protocols safely sanitize mattresses, sofas, and delicate electronics.
-                        </p>
-                    </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -655,76 +637,83 @@
 
     <!-- Fun Facts Section -->
     <!-- Fun Facts Section -->
-    <section class="py-24 sm:py-32 bg-slate-50 border-t border-slate-200 relative overflow-hidden">
-        
-        <!-- Abstract Background -->
-        <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-orange/5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
-        <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-3xl transform -translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
-
+    <section class="pt-16 pb-20 bg-[#FAFAFA] relative overflow-hidden border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             
-            <div class="text-center mb-20 max-w-3xl mx-auto">
-                <span class="inline-block px-4 py-1.5 bg-white text-orange text-sm font-extrabold uppercase tracking-widest border border-slate-200 rounded-full shadow-sm mb-6">
-                    Pest Biology
+            <div class="text-center mb-16 max-w-3xl mx-auto">
+                <span class="inline-block text-[#FF6A00] font-bold uppercase tracking-[0.15em] text-sm mb-4">
+                    BED BUG FACTS
                 </span>
-                <h2 class="font-heading font-black text-5xl sm:text-6xl text-slate-900 leading-[1.1] uppercase tracking-tighter mb-6">
-                    Did You Know? <span class="text-orange block sm:inline mt-2 sm:mt-0">Fun Facts!</span>
+                <h2 class="font-heading font-black text-3xl sm:text-4xl lg:text-5xl text-[#0A1128] leading-tight mb-4">
+                    Important Facts Every Homeowner Should Know
                 </h2>
-                <p class="text-slate-600 text-xl font-medium leading-relaxed">
-                    A few crazy, surprising things about bed bugs you probably never knew. 
+                <div class="w-16 h-1 bg-[#FF6A00] mx-auto mb-6"></div>
+                <p class="text-slate-600 text-[17px] leading-relaxed font-medium">
+                    Bed bug infestations can happen fast—and the longer you wait, the worse it can get.<br class="hidden sm:block">
+                    Here are key facts every homeowner should know.
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+            <!-- Facts Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
                 
-                <!-- Fact Card 1 -->
-                <div class="bg-white p-8 sm:p-10 rounded-[2rem] border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-3 hover:border-orange/30 hover:shadow-[0_20px_50px_rgb(0,0,0,0.1)] transition-all duration-300 group">
-                    <div class="w-20 h-20 bg-orange/10 rounded-[1.5rem] flex items-center justify-center text-orange text-3xl mb-8 group-hover:scale-110 group-hover:-rotate-12 group-hover:bg-orange group-hover:text-white transition-all duration-300 shadow-inner">
-                        <i class="fa-solid fa-plane-slash"></i>
+                <!-- Fact 1 -->
+                <div class="bg-white p-8 sm:p-10 rounded-xl shadow-sm border border-slate-100 text-center transition-all duration-300 group hover:-translate-y-2 hover:shadow-[0_12px_30px_rgba(255,106,0,0.12)] hover:border-[#FF6A00]">
+                    <div class="w-20 h-20 bg-[#FEF3EB] rounded-full mx-auto flex items-center justify-center text-[#FF6A00] mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
                     </div>
-                    <h3 class="text-slate-900 font-heading font-extrabold text-2xl mb-4 uppercase tracking-tight">They Don't Fly!</h3>
-                    <p class="text-slate-600 font-medium leading-relaxed">Bed bugs lack wings and cannot fly or jump. They are expert hitchhikers that simply crawl onto your luggage or clothing.</p>
+                    <h3 class="font-heading font-bold text-[22px] text-[#0A1128] mb-3 group-hover:text-[#FF6A00] transition-colors duration-300">Extremely Fast</h3>
+                    <div class="w-8 h-[2px] bg-[#FF6A00] mx-auto mb-4 group-hover:w-12 transition-all duration-300"></div>
+                    <p class="text-slate-600 text-sm leading-[1.7] font-medium">
+                        Bed bugs can lay up to 500 eggs, turning a small problem into a severe infestation incredibly fast.
+                    </p>
                 </div>
 
-                <!-- Fact Card 2 -->
-                <div class="bg-white p-8 sm:p-10 rounded-[2rem] border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-3 hover:border-orange/30 hover:shadow-[0_20px_50px_rgb(0,0,0,0.1)] transition-all duration-300 group mt-0 lg:mt-12">
-                    <div class="w-20 h-20 bg-orange/10 rounded-[1.5rem] flex items-center justify-center text-orange text-3xl mb-8 group-hover:scale-110 group-hover:-rotate-12 group-hover:bg-orange group-hover:text-white transition-all duration-300 shadow-inner">
-                        <i class="fa-solid fa-syringe"></i>
+                <!-- Fact 2 -->
+                <div class="bg-white p-8 sm:p-10 rounded-xl shadow-sm border border-slate-100 text-center transition-all duration-300 group hover:-translate-y-2 hover:shadow-[0_12px_30px_rgba(255,106,0,0.12)] hover:border-[#FF6A00]">
+                    <div class="w-20 h-20 bg-[#FEF3EB] rounded-full mx-auto flex items-center justify-center text-[#FF6A00] mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                        </svg>
                     </div>
-                    <h3 class="text-slate-900 font-heading font-extrabold text-2xl mb-4 uppercase tracking-tight">Natural Anesthetic</h3>
-                    <p class="text-slate-600 font-medium leading-relaxed">Their saliva acts as a powerful painkiller, letting them feed completely undetected for up to 10 minutes while you sleep.</p>
+                    <h3 class="font-heading font-bold text-[22px] text-[#0A1128] mb-3 group-hover:text-[#FF6A00] transition-colors duration-300">Expert Hiding</h3>
+                    <div class="w-8 h-[2px] bg-[#FF6A00] mx-auto mb-4 group-hover:w-12 transition-all duration-300"></div>
+                    <p class="text-slate-600 text-sm leading-[1.7] font-medium">
+                        Bed bugs can quickly spread and hide inside walls, flooring, mattresses, and small electronics.
+                    </p>
                 </div>
 
-                <!-- Fact Card 3 -->
-                <div class="bg-white p-8 sm:p-10 rounded-[2rem] border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-3 hover:border-orange/30 hover:shadow-[0_20px_50px_rgb(0,0,0,0.1)] transition-all duration-300 group">
-                    <div class="w-20 h-20 bg-orange/10 rounded-[1.5rem] flex items-center justify-center text-orange text-3xl mb-8 group-hover:scale-110 group-hover:-rotate-12 group-hover:bg-orange group-hover:text-white transition-all duration-300 shadow-inner">
-                        <i class="fa-solid fa-calendar-days"></i>
+                <!-- Fact 3 -->
+                <div class="bg-white p-8 sm:p-10 rounded-xl shadow-sm border border-slate-100 text-center transition-all duration-300 group hover:-translate-y-2 hover:shadow-[0_12px_30px_rgba(255,106,0,0.12)] hover:border-[#FF6A00]">
+                    <div class="w-20 h-20 bg-[#FEF3EB] rounded-full mx-auto flex items-center justify-center text-[#FF6A00] mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                        </svg>
                     </div>
-                    <h3 class="text-slate-900 font-heading font-extrabold text-2xl mb-4 uppercase tracking-tight">Months Without Food</h3>
-                    <p class="text-slate-600 font-medium leading-relaxed">A mature bed bug can survive several months without a single blood meal in the right conditions. Waiting them out does not work.</p>
+                    <h3 class="font-heading font-bold text-[22px] text-[#0A1128] mb-3 group-hover:text-[#FF6A00] transition-colors duration-300">Act Fast</h3>
+                    <div class="w-8 h-[2px] bg-[#FF6A00] mx-auto mb-4 group-hover:w-12 transition-all duration-300"></div>
+                    <p class="text-slate-600 text-sm leading-[1.7] font-medium">
+                        Quick professional action can help eliminate the infestation entirely and restore your peace of mind.
+                    </p>
                 </div>
 
-                <!-- Fact Card 4 -->
-                <div class="bg-white p-8 sm:p-10 rounded-[2rem] border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:-translate-y-3 hover:border-orange/30 hover:shadow-[0_20px_50px_rgb(0,0,0,0.1)] transition-all duration-300 group mt-0 lg:mt-12">
-                    <div class="w-20 h-20 bg-orange/10 rounded-[1.5rem] flex items-center justify-center text-orange text-3xl mb-8 group-hover:scale-110 group-hover:-rotate-12 group-hover:bg-orange group-hover:text-white transition-all duration-300 shadow-inner">
-                        <i class="fa-solid fa-egg"></i>
+                <!-- Fact 4 -->
+                <div class="bg-white p-8 sm:p-10 rounded-xl shadow-sm border border-slate-100 text-center transition-all duration-300 group hover:-translate-y-2 hover:shadow-[0_12px_30px_rgba(255,106,0,0.12)] hover:border-[#FF6A00]">
+                    <div class="w-20 h-20 bg-[#FEF3EB] rounded-full mx-auto flex items-center justify-center text-[#FF6A00] mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
                     </div>
-                    <h3 class="text-slate-900 font-heading font-extrabold text-2xl mb-4 uppercase tracking-tight">Up to 500 Eggs</h3>
-                    <p class="text-slate-600 font-medium leading-relaxed">A single female lays up to 500 eggs. A tiny hidden problem in your home becomes a massive infestation incredibly fast.</p>
+                    <h3 class="font-heading font-bold text-[22px] text-[#0A1128] mb-3 group-hover:text-[#FF6A00] transition-colors duration-300">You're Not Alone</h3>
+                    <div class="w-8 h-[2px] bg-[#FF6A00] mx-auto mb-4 group-hover:w-12 transition-all duration-300"></div>
+                    <p class="text-slate-600 text-sm leading-[1.7] font-medium">
+                        1 in 50 Americans has had a bed bug infestation or knows someone who has. It is a common problem.
+                    </p>
                 </div>
 
-            </div>
-
-            <!-- Conclusion Block -->
-            <div class="mt-24 text-center max-w-4xl mx-auto bg-white border border-slate-100 shadow-xl p-10 sm:p-14 rounded-[3rem]">
-                <h3 class="font-heading font-black text-3xl sm:text-4xl text-slate-900 mb-6 uppercase tracking-tight">Ready to Kick Them Out?</h3>
-                <p class="text-slate-600 text-lg font-medium leading-relaxed mb-10 max-w-2xl mx-auto">
-                    Now that you know what you are dealing with, it's time to let the professionals handle it. We provide guaranteed bed bug control in Rowland Heights.
-                </p>
-                <a href="tel:+16265550198" class="inline-flex items-center gap-4 bg-orange text-white font-black text-xl px-10 py-5 rounded-2xl hover:bg-orange/90 hover:-translate-y-1 hover:shadow-2xl hover:shadow-orange/40 transition-all duration-300 uppercase tracking-wide">
-                    <i class="fa-solid fa-bug-slash animate-bounce"></i>
-                    <span>Get Rid of Bed Bugs Today</span>
-                </a>
             </div>
 
         </div>
