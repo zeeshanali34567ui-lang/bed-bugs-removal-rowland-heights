@@ -98,12 +98,12 @@
     <div class="bg-dark-950 py-2 px-4 border-b border-brand-900/30">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
             <!-- Left Side -->
-            <div class="flex items-center gap-2 text-[10px] sm:text-xs font-bold text-slate-400 tracking-wider">
-                <span class="relative flex h-1.5 w-1.5">
+            <div class="flex items-start sm:items-center gap-2 text-[10px] sm:text-xs font-bold text-slate-400 tracking-wider max-w-full">
+                <span class="relative flex h-1.5 w-1.5 shrink-0 mt-1 sm:mt-0">
                     <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
                     <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-brand-500"></span>
                 </span>
-                <span class="uppercase">Active Extermination Dispatch • Rowland Heights, CA 91748</span>
+                <span class="uppercase text-left leading-tight">Active Extermination Dispatch <br class="sm:hidden"> Rowland Heights, CA 91748</span>
             </div>
             <!-- Right Side -->
             <div class="flex items-center gap-1.5 text-xs font-bold">
@@ -229,10 +229,10 @@
     <!-- Hero Section -->
     <section class="relative bg-slate-950 text-white py-16 overflow-hidden">
         <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1200" 
-                 alt="Modern commercial office space being treated" 
-                 class="w-full h-full object-cover opacity-20 transform scale-105">
-            <div class="absolute inset-0 bg-slate-950/80"></div>
+            <img src="assets/images/commercial-treatment-bg.png" 
+                 alt="Discreet commercial bed bug exterminator inspecting luxury hotel room" 
+                 class="w-full h-full object-cover opacity-70 transform scale-105">
+            <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-950/20"></div>
         </div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -283,29 +283,56 @@
                     <div>
                         <h3 class="font-display font-bold text-2xl text-slate-900 mb-4">Sectors We Protect</h3>
                         <div class="grid sm:grid-cols-2 gap-6">
-                            <div class="p-5 border border-slate-200 rounded-xl space-y-2">
-                                <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2">
-                                    <i class="fa-solid fa-hotel text-brand-600"></i> Lodging (Hotels & Motels)
-                                </h4>
-                                <p class="text-xs text-slate-500">Fast thermal heat treats rooms in 8 hours, saving inventory and securing guest ratings.</p>
+                            <div class="group relative bg-white border border-slate-200 hover:border-brand-300 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+                                <div class="absolute top-0 left-0 w-1 h-full bg-brand-500 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
+                                <div class="flex items-start gap-4">
+                                    <div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-sm">
+                                        <i class="fa-solid fa-hotel text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-900 mb-2 group-hover:text-brand-600 transition-colors">Lodging (Hotels & Motels)</h4>
+                                        <p class="text-xs text-slate-500 leading-relaxed">Fast thermal heat treats rooms in 8 hours, saving inventory and securing guest ratings.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="p-5 border border-slate-200 rounded-xl space-y-2">
-                                <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2">
-                                    <i class="fa-solid fa-hospital text-brand-600"></i> Eldercare & Clinics
-                                </h4>
-                                <p class="text-xs text-slate-500">Fully EPA-compliant botanical treatments tailored for sensitive patient care rooms.</p>
+                            
+                            <div class="group relative bg-white border border-slate-200 hover:border-brand-300 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+                                <div class="absolute top-0 left-0 w-1 h-full bg-brand-500 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
+                                <div class="flex items-start gap-4">
+                                    <div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-sm">
+                                        <i class="fa-solid fa-hospital text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-900 mb-2 group-hover:text-brand-600 transition-colors">Eldercare & Clinics</h4>
+                                        <p class="text-xs text-slate-500 leading-relaxed">Fully EPA-compliant botanical treatments tailored for sensitive patient care rooms.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="p-5 border border-slate-200 rounded-xl space-y-2">
-                                <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2">
-                                    <i class="fa-solid fa-building text-brand-600"></i> Corporate Offices
-                                </h4>
-                                <p class="text-xs text-slate-500">Treatment plans for desks, conference seating, and lounges with zero business interruption.</p>
+
+                            <div class="group relative bg-white border border-slate-200 hover:border-brand-300 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+                                <div class="absolute top-0 left-0 w-1 h-full bg-brand-500 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
+                                <div class="flex items-start gap-4">
+                                    <div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-sm">
+                                        <i class="fa-solid fa-building text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-900 mb-2 group-hover:text-brand-600 transition-colors">Corporate Offices</h4>
+                                        <p class="text-xs text-slate-500 leading-relaxed">Treatment plans for desks, conference seating, and lounges with zero business interruption.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="p-5 border border-slate-200 rounded-xl space-y-2">
-                                <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2">
-                                    <i class="fa-solid fa-school text-brand-600"></i> Student & Public Housing
-                                </h4>
-                                <p class="text-xs text-slate-500">Scalable treatment options for multiple rooms to eradicate bugs and stop migration.</p>
+
+                            <div class="group relative bg-white border border-slate-200 hover:border-brand-300 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+                                <div class="absolute top-0 left-0 w-1 h-full bg-brand-500 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
+                                <div class="flex items-start gap-4">
+                                    <div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-sm">
+                                        <i class="fa-solid fa-school text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-900 mb-2 group-hover:text-brand-600 transition-colors">Student & Public Housing</h4>
+                                        <p class="text-xs text-slate-500 leading-relaxed">Scalable treatment options for multiple rooms to eradicate bugs and stop migration.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -474,6 +501,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
