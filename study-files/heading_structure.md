@@ -6,7 +6,7 @@ This outline is engineered for 2026 Search Everywhere Optimization (SRO), Genera
 
 ## 1. HERO SECTION (The Answer-First Block)
 *(Optimized for AI Overviews & Zero-Click Searches. Must concisely state who, what, where, and how in the first 150 words.)*
-**H1:** Bed Bugs Removal Rowland Heights: Reliable Extermination Services
+**H1:** Bed Bugs Removal Rowland Heights
 *   *(Subheadline)*: Professional Bed Bug Extermination in Rowland Heights, CA. We provide thorough inspections and effective treatments tailored to your home.
 
 ---
@@ -29,7 +29,7 @@ This outline is engineered for 2026 Search Everywhere Optimization (SRO), Genera
 
 ## 3. ABOUT US (Building Local E-E-A-T)
 *(Builds topical authority and local entity relevance without exaggerating.)*
-**H2:** Rowland Heights Bed Bug Control & Exterminators — Our Background
+**H2:** Rowland Heights Bed Bug Control & Exterminators
 *   *(Content Theme)*: Detail our experience handling pest issues specifically in the San Gabriel Valley climate. Mention our understanding of local housing types (e.g., apartments, older stucco homes) that are prone to infestations.
 
 ---
