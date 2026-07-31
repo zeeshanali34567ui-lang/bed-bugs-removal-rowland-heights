@@ -72,12 +72,7 @@ Need bed bug removal in Rowland Heights, CA? Our certified exterminators offer s
     "opens": "08:00",
     "closes": "18:00"
   },
-  "hasCredential": {
-    "@type": "EducationalOccupationalCredential",
-    "credentialCategory": "State License",
-    "name": "California Structural Pest Control Board License",
-    "identifier": "SPCB-629471"
-  },
+
   "priceRange": "$$",
   "paymentAccepted": "Cash, Credit Card",
   "currenciesAccepted": "USD",
@@ -261,8 +256,7 @@ complexes, and commercial spaces throughout the 91748 area.
 
 **Paragraph 2 - Replace current text with:**
 ```
-Our team is fully certified by the California Structural Pest Control Board
-(License #SPCB-629471). We understand how the warm Southern California climate
+We understand how the warm Southern California climate
 affects Cimex lectularius behavior, especially during the dry summer months when
 residents move furniture in and out. Just like neighbors come together every year
 for the Buckboard Days Parade, we believe in showing up for this community when

@@ -1,4 +1,4 @@
-﻿# Website Content and SEO Implementation
+# Website Content and SEO Implementation
 
 ## File: about-us.html
 
@@ -59,7 +59,7 @@ The main structural sections of the page:
 
 #### [H4] Full State Licensing
 
-[Paragraph] Our company and structural pest technicians are fully licensed by the State of California Structural Pest Control Board (License # SPCB-629471).
+[Paragraph] Our team is highly trained and experienced in bed bug eradication.
 
 #### [H4] Eco-Conscious Focus
 
@@ -730,7 +730,7 @@ The main structural sections of the page:
 
 [Paragraph] Bed bug infestations can happen to anyone. These pests travel on luggage, clothes, and used furniture, quickly settling into local homes. At Rowland Heights Bed Bug Killers, our goal is to help you get your home back. We are a locally operated team of pest control experts. We have spent years serving the San Gabriel Valley, resolving pest issues in older stucco homes, apartments, and commercial spaces.
 
-[Paragraph] Our team is fully certified by the California Structural Pest Control Board. We know how the local climate affects pest behaviors, especially during warm Southern California summers. Just like our neighbors come together for the annual Buckboard Days Parade, we believe in supporting our community when pest emergencies strike. We treat your property with the care and respect it deserves.
+[Paragraph] We know how the local climate affects pest behaviors, especially during warm Southern California summers. Just like our neighbors come together for the annual Buckboard Days Parade, we believe in supporting our community when pest emergencies strike. We treat your property with the care and respect it deserves.
 
 ## [H2] Comprehensive Eradication Services
 
