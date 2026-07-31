@@ -785,9 +785,9 @@ The main structural sections of the page:
 [Paragraph] Bed bugs can quickly spread and hide inside walls, flooring, mattresses, and small electronics.
 
 
-### [H3] You're Not Alone
+### [H3] Stealthy Feeders
 
-[Paragraph] 1 in 50 Americans has had a bed bug infestation or knows someone who has. It is a common problem.
+[Paragraph] Bed bug saliva contains a natural anesthetic and an anticoagulant. This numbing agent allows them to feed completely undetected for up to 10 minutes while you sleep.
 
 ## [H2] Frequently Asked Questions About Bed Bug Treatment
 
