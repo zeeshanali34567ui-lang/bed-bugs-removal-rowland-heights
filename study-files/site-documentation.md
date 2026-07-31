@@ -784,9 +784,6 @@ The main structural sections of the page:
 
 [Paragraph] Bed bugs can quickly spread and hide inside walls, flooring, mattresses, and small electronics.
 
-### [H3] Act Fast
-
-[Paragraph] Quick professional action can help eliminate the infestation entirely and restore your peace of mind.
 
 ### [H3] You're Not Alone
 

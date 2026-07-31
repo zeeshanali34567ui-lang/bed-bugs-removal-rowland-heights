@@ -379,8 +379,6 @@ ineffective against deep infestations.
 ```
 > **Added:** "flat bodies" (semantic entity from semantic_entities.md). More specific hiding spots. Removes vague "small electronics."
 
-**H3: Act Fast (keep)**
-**Paragraph (keep as-is)**
 
 **H3: You're Not Alone (keep)**
 **Paragraph (keep as-is - factual stat)**
