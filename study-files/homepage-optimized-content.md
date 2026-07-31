@@ -14,7 +14,7 @@ Bed Bugs Removal Rowland Heights | Same Day Extermination & Free Inspection
 
 ### Meta Description
 ```
-Need bed bug removal in Rowland Heights, CA? Our certified exterminators offer same day service, thermal heat and chemical treatments, and a 100% eradication guarantee. Call for a free inspection. License #SPCB-629471.
+Need bed bug removal in Rowland Heights, CA? Our certified exterminators offer same day service, thermal heat and chemical treatments, and a 100% eradication guarantee. Call for a free inspection. 
 ```
 > **Why:** Hits primary keyword, two secondary keywords, trust signals (license number, 100% guarantee), and a clear CTA. Under 160 characters.
 
@@ -26,7 +26,7 @@ Need bed bug removal in Rowland Heights, CA? Our certified exterminators offer s
 ### Open Graph Tags (Currently Missing — Add These)
 ```html
 <meta property="og:title" content="Bed Bugs Removal Rowland Heights | Same Day Extermination" />
-<meta property="og:description" content="Certified bed bug exterminators in Rowland Heights, CA. Thermal heat & chemical treatments. Free inspection. License #SPCB-629471." />
+<meta property="og:description" content="Certified bed bug exterminators in Rowland Heights, CA. Thermal heat & chemical treatments. Free inspection. " />
 <meta property="og:url" content="https://rowlandheightsbedbugs.com/" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
@@ -37,112 +37,112 @@ Need bed bug removal in Rowland Heights, CA? Our certified exterminators offer s
 #### LocalBusiness Schema
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "PestControlService",
-  "name": "Rowland Heights Bed Bug Killers",
-  "url": "https://rowlandheightsbedbugs.com",
-  "logo": "https://rowlandheightsbedbugs.com/images/logo.png",
-  "description": "Certified bed bug exterminators in Rowland Heights, CA. We offer thermal heat treatment, chemical treatment, residential and commercial bed bug removal.",
-  "telephone": "+1-626-555-0198",
-  "email": "info@rowlandheightsbedbugs.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Colima Road",
-    "addressLocality": "Rowland Heights",
-    "addressRegion": "CA",
-    "postalCode": "91748",
-    "addressCountry": "US"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "33.9983",
-    "longitude": "-117.8878"
-  },
-  "areaServed": [
-    { "@type": "City", "name": "Rowland Heights" },
-    { "@type": "City", "name": "Hacienda Heights" },
-    { "@type": "City", "name": "Walnut" },
-    { "@type": "City", "name": "Diamond Bar" },
-    { "@type": "City", "name": "La Puente" },
-    { "@type": "City", "name": "West Covina" }
-  ],
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-    "opens": "08:00",
-    "closes": "18:00"
-  },
+ "@context": "https://schema.org",
+ "@type": "PestControlService",
+ "name": "Rowland Heights Bed Bug Killers",
+ "url": "https://rowlandheightsbedbugs.com",
+ "logo": "https://rowlandheightsbedbugs.com/images/logo.png",
+ "description": "Certified bed bug exterminators in Rowland Heights, CA. We offer thermal heat treatment, chemical treatment, residential and commercial bed bug removal.",
+ "telephone": "+1-626-555-0198",
+ "email": "info@rowlandheightsbedbugs.com",
+ "address": {
+ "@type": "PostalAddress",
+ "streetAddress": "Colima Road",
+ "addressLocality": "Rowland Heights",
+ "addressRegion": "CA",
+ "postalCode": "91748",
+ "addressCountry": "US"
+ },
+ "geo": {
+ "@type": "GeoCoordinates",
+ "latitude": "33.9983",
+ "longitude": "-117.8878"
+ },
+ "areaServed": [
+ { "@type": "City", "name": "Rowland Heights" },
+ { "@type": "City", "name": "Hacienda Heights" },
+ { "@type": "City", "name": "Walnut" },
+ { "@type": "City", "name": "Diamond Bar" },
+ { "@type": "City", "name": "La Puente" },
+ { "@type": "City", "name": "West Covina" }
+ ],
+ "openingHoursSpecification": {
+ "@type": "OpeningHoursSpecification",
+ "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+ "opens": "08:00",
+ "closes": "18:00"
+ },
 
-  "priceRange": "$$",
-  "paymentAccepted": "Cash, Credit Card",
-  "currenciesAccepted": "USD",
-  "sameAs": []
+ "priceRange": "$$",
+ "paymentAccepted": "Cash, Credit Card",
+ "currenciesAccepted": "USD",
+ "sameAs": []
 }
 ```
 
 #### FAQPage Schema (Maps to FAQ Section)
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does bed bug removal cost in Rowland Heights, CA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of bed bug removal in Rowland Heights depends on the size of the infestation and the treatment method. Chemical treatments are generally more affordable upfront, while thermal heat treatments range higher but eliminate all bed bugs and eggs in a single day. We offer free inspections and flat-rate pricing. Call (626) 555-0198 for a no-obligation quote."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does the bed bug extermination process take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Thermal heat treatment takes approximately 8 hours and eliminates all life stages in one session. Chemical treatments may require two visits spaced 2 weeks apart to catch any hatching eggs. Our technicians will walk you through the full timeline during your free inspection."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are bed bugs common in Rowland Heights and the San Gabriel Valley?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The warm Southern California climate and the high density of apartments, hotels, and older stucco housing in the San Gabriel Valley make Rowland Heights an active area for bed bug infestations. They spread easily on luggage, clothing, and used furniture."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What steps do you take to protect children and pets during treatment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We use EPA-registered botanical and mineral compounds that are safe for children and pets once completely dry. For thermal heat treatments, all occupants (including pets) must vacate for the 8-hour treatment window. Our technicians provide a full pre-treatment checklist before every appointment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What areas do you serve for bed bug control in Rowland Heights?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We serve all of Rowland Heights (ZIP codes 91748 and 91749), plus neighboring communities including Hacienda Heights, Walnut, Diamond Bar, La Puente, and West Covina in the greater San Gabriel Valley."
-      }
-    }
-  ]
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ {
+ "@type": "Question",
+ "name": "How much does bed bug removal cost in Rowland Heights, CA?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "The cost of bed bug removal in Rowland Heights depends on the size of the infestation and the treatment method. Chemical treatments are generally more affordable upfront, while thermal heat treatments range higher but eliminate all bed bugs and eggs in a single day. We offer free inspections and flat-rate pricing. Call (626) 555-0198 for a no-obligation quote."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "How long does the bed bug extermination process take?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Thermal heat treatment takes approximately 8 hours and eliminates all life stages in one session. Chemical treatments may require two visits spaced 2 weeks apart to catch any hatching eggs. Our technicians will walk you through the full timeline during your free inspection."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "Are bed bugs common in Rowland Heights and the San Gabriel Valley?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes. The warm Southern California climate and the high density of apartments, hotels, and older stucco housing in the San Gabriel Valley make Rowland Heights an active area for bed bug infestations. They spread easily on luggage, clothing, and used furniture."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "What steps do you take to protect children and pets during treatment?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "We use EPA-registered botanical and mineral compounds that are safe for children and pets once completely dry. For thermal heat treatments, all occupants (including pets) must vacate for the 8-hour treatment window. Our technicians provide a full pre-treatment checklist before every appointment."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "What areas do you serve for bed bug control in Rowland Heights?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "We serve all of Rowland Heights (ZIP codes 91748 and 91749), plus neighboring communities including Hacienda Heights, Walnut, Diamond Bar, La Puente, and West Covina in the greater San Gabriel Valley."
+ }
+ }
+ ]
 }
 ```
 
 #### BreadcrumbList Schema
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://rowlandheightsbedbugs.com/"
-    }
-  ]
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+ {
+ "@type": "ListItem",
+ "position": 1,
+ "name": "Home",
+ "item": "https://rowlandheightsbedbugs.com/"
+ }
+ ]
 }
 ```
 
@@ -156,35 +156,35 @@ The current H1 is correct. The H2s need three changes:
 3. The FAQ H2 stays exactly as is.
 
 ```
-H1: Bed Bugs Removal Rowland Heights               ← PRIMARY KEYWORD (keep as-is)
+H1: Bed Bugs Removal Rowland Heights ← PRIMARY KEYWORD (keep as-is)
 
 H2: How Much Does Bed Bug Removal Cost in
-    Rowland Heights?                                ← NEW AEO BLOCK (insert after Hero)
+ Rowland Heights? ← NEW AEO BLOCK (insert after Hero)
 
-H2: Bed Bugs Control in Rowland Heights             ← About section (keep)
+H2: Bed Bugs Control in Rowland Heights ← About section (keep)
 
-H2: Comprehensive Eradication Services              ← Services (keep)
-  H3: Chemical Treatment
-  H3: Thermal Heat Treatment
-  H3: Residential Control
-  H3: Commercial Control
+H2: Comprehensive Eradication Services ← Services (keep)
+ H3: Chemical Treatment
+ H3: Thermal Heat Treatment
+ H3: Residential Control
+ H3: Commercial Control
 
-H2: Why Choose Us                                   ← Fix: Title Case in HTML (keep text)
-  H3: Bed Bug Experts Only
-  H3: Guaranteed Results
-  H3: Discreet Service
-  H3: Home Preservation
+H2: Why Choose Us ← Fix: Title Case in HTML (keep text)
+ H3: Bed Bug Experts Only
+ H3: Guaranteed Results
+ H3: Discreet Service
+ H3: Home Preservation
 
-H2: Important Facts Every Homeowner Should Know     ← Fun Facts (keep)
-  H3: Extremely Fast
-  H3: Expert Hiding
-  H3: Act Fast
-  H3: You're Not Alone
+H2: Important Facts Every Homeowner Should Know ← Fun Facts (keep)
+ H3: Extremely Fast
+ H3: Expert Hiding
+ H3: Act Fast
+ H3: You're Not Alone
 
 H2: Frequently Asked Questions About Bed Bug
-    Treatment                                        ← FAQ (keep)
+ Treatment ← FAQ (keep)
 
-H2: Need Bed Bugs Gone Today? We Can Help.          ← CTA (keep)
+H2: Need Bed Bugs Gone Today? We Can Help. ← CTA (keep)
 ```
 
 ---
@@ -230,7 +230,7 @@ session, with no return visits needed for the treatment itself.
 
 At Rowland Heights Bed Bug Killers, we offer free inspections so you know the
 exact scope before committing to anything. We provide flat-rate pricing with no
-hidden fees. Our certified technicians (License #SPCB-629471) will explain exactly
+hidden fees. Our certified technicians will explain exactly
 which method fits your specific situation. Call (626) 555-0198 to schedule your
 free inspection today.
 ```
@@ -263,7 +263,7 @@ for the Buckboard Days Parade, we believe in showing up for this community when
 pest emergencies strike. We treat every property with the same care we would give
 our own homes.
 ```
-> **Changes:** Fixed em dash. Added ZIP code entity (91748). Added scientific name (Cimex lectularius) for topical authority. Kept Buckboard Days reference for hyper-local E-E-A-T. Added license number inline. Removed AI cliche "pest behaviors" replaced with "Cimex lectularius behavior."
+> **Changes:** Fixed em dash. Added ZIP code entity (91748). Added scientific name (Cimex lectularius) for topical authority. Kept Buckboard Days reference for hyper-local E-E-A-T. Removed AI cliche "pest behaviors" replaced with "Cimex lectularius behavior."
 
 ---
 
@@ -401,32 +401,32 @@ Frequently Asked Questions About Bed Bug Treatment
 ```
 Q: How much does bed bug removal cost in Rowland Heights, CA?
 A: The cost depends on infestation size and treatment method. Chemical treatments
-   are more affordable upfront and suit contained infestations. Thermal heat
-   treatments cost more but eliminate all life stages in one 8-hour visit. We
-   offer free inspections and flat-rate pricing. Call (626) 555-0198 for a quote.
+ are more affordable upfront and suit contained infestations. Thermal heat
+ treatments cost more but eliminate all life stages in one 8-hour visit. We
+ offer free inspections and flat-rate pricing. Call (626) 555-0198 for a quote.
 
 Q: How long does the bed bug extermination process take?
 A: Thermal heat treatment takes approximately 8 hours and eliminates all life
-   stages in one session. Chemical treatments may require two visits spaced about
-   2 weeks apart to catch hatching eggs. Your technician will walk you through the
-   full timeline during your free inspection.
+ stages in one session. Chemical treatments may require two visits spaced about
+ 2 weeks apart to catch hatching eggs. Your technician will walk you through the
+ full timeline during your free inspection.
 
 Q: Are bed bugs common in Rowland Heights and the San Gabriel Valley?
 A: Yes. The warm Southern California climate and the density of apartments and
-   older stucco housing in the San Gabriel Valley make Rowland Heights an active
-   area for bed bug infestations. They spread easily on luggage, clothing, and
-   used furniture.
+ older stucco housing in the San Gabriel Valley make Rowland Heights an active
+ area for bed bug infestations. They spread easily on luggage, clothing, and
+ used furniture.
 
 Q: What steps do you take to protect children and pets during treatment?
 A: We use EPA-registered botanical and mineral compounds that are safe for
-   children and pets once completely dry. For thermal heat treatments, all
-   occupants including pets must vacate for the 8-hour session. We provide a full
-   preparation checklist before every appointment.
+ children and pets once completely dry. For thermal heat treatments, all
+ occupants including pets must vacate for the 8-hour session. We provide a full
+ preparation checklist before every appointment.
 
 Q: What areas do you serve for bed bug control in Rowland Heights?
 A: We serve all of Rowland Heights (91748 and 91749), plus Hacienda Heights,
-   Walnut, Diamond Bar, La Puente, and West Covina across the greater San Gabriel
-   Valley.
+ Walnut, Diamond Bar, La Puente, and West Covina across the greater San Gabriel
+ Valley.
 ```
 
 ---
